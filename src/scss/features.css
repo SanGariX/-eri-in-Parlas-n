@@ -1,0 +1,108 @@
+.features {
+  scroll-margin-top: 100px;
+  margin-bottom: 80px;
+  @media screen and (min-width: 1440px) {
+    margin-bottom: 128px;
+  }
+}
+.features_container {
+  padding: 0 16px;
+}
+.features_inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  @media screen and (min-width: 1440px) {
+    width: 100%;
+    flex-direction: row;
+    gap: 24px;
+  }
+}
+.features_inner_item {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.features_inner_item_bold {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--pembe100);
+  @media screen and (min-width: 1440px) {
+    font-size: 48px;
+    text-align: left;
+  }
+}
+.features_inner_item_text {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--siyah100);
+  @media screen and (min-width: 1440px) {
+    font-size: 25px;
+    text-align: left;
+  }
+}
+.features_inner_item img {
+  width: 100%;
+  @media screen and (min-width: 1440px) {
+    font-size: 25px;
+    width: 388px;
+    min-width: 388px;
+  }
+}
+.features_inner_item_list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  @media screen and (min-width: 1440px) {
+    gap: 32px;
+    width: 465px;
+  }
+}
+.features_inner_item_list_item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--siyah100);
+  @media screen and (min-width: 1440px) {
+    font-size: 20px;
+  }
+}
+.features_inner_item_list_item::before {
+  content: '';
+  width: 20px;
+  min-width: 20px;
+  max-width: 20px;
+  height: 14px;
+  min-height: 14px;
+  max-height: 14px;
+  background: url(../img/features/pointer.png) center center/contain no-repeat;
+  @media screen and (min-width: 1440px) {
+    font-size: 20px;
+  }
+}
+.features_desc {
+  display: none;
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 1.2;
+  color: var(--siyah100);
+  text-align: center;
+  margin-top: 24px;
+  @media screen and (min-width: 1440px) {
+    display: block;
+  }
+}

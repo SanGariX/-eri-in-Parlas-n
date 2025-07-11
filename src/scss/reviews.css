@@ -1,0 +1,109 @@
+.reviews {
+  scroll-margin-top: 100px;
+  margin-bottom: 80px;
+  @media screen and (min-width: 1440px) {
+    margin-bottom: 128px;
+  }
+}
+.reviews_container {
+  padding: 0 16px;
+}
+.reviews_inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  @media screen and (min-width: 1440px) {
+    flex-direction: row;
+    gap: 24px;
+  }
+}
+.reviews_inner_itembox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  @media screen and (min-width: 1440px) {
+    justify-content: space-between !important;
+    height: 780px;
+  }
+}
+.reviews_inner_itembox:nth-child(1) > img {
+  width: 100%;
+  order: 2;
+  @media screen and (min-width: 1440px) {
+    order: 1;
+    width: 360px;
+    height: 280px;
+  }
+}
+.reviews_inner_itembox:nth-child(1) > article {
+  order: 1;
+  @media screen and (min-width: 1440px) {
+    order: 2;
+  }
+}
+.reviews_inner_itembox:nth-child(2) > img {
+  width: 100%;
+  order: 2;
+  @media screen and (min-width: 1440px) {
+    width: 360px;
+    height: 360px;
+  }
+}
+.reviews_inner_itembox:nth-child(2) > article {
+  order: 1;
+}
+.reviews_inner_itembox:nth-child(3) > img {
+  width: 100%;
+  order: 2;
+  @media screen and (min-width: 1440px) {
+    order: 1;
+    width: 360px;
+    height: 360px;
+  }
+}
+.reviews_inner_itembox:nth-child(3) > article {
+  order: 1;
+  @media screen and (min-width: 1440px) {
+    order: 2;
+  }
+}
+.reviews_inner_item {
+  border-radius: 16px;
+  padding: 16px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  background: linear-gradient(
+    270deg,
+    rgba(129, 77, 80, 0.7) 0%,
+    rgba(17, 17, 17, 0.9) 100%
+  );
+  @media screen and (min-width: 1440px) {
+    width: 360px;
+  }
+}
+.reviews_inner_item_author {
+  order: 2;
+  width: 100%;
+  text-align: right;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  text-align: right;
+  color: var(--beyaz);
+}
+.reviews_inner_item_desc {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--beyaz);
+}

@@ -1,0 +1,115 @@
+.working {
+  scroll-margin-top: 100px;
+  margin-bottom: 40px;
+  @media screen and (min-width: 1440px) {
+    margin-bottom: 64px;
+  }
+}
+.working_wrapper {
+  background: url(../img/working/working_background_mobile.jpg) top center/cover
+    no-repeat;
+  @media screen and (min-width: 1440px) {
+    background: url(../img/working/working_background.jpg) top center/cover
+      no-repeat;
+  }
+}
+.container_working {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px 16px;
+  gap: 41px;
+  @media screen and (min-width: 1440px) {
+    flex-direction: row;
+    gap: 24px;
+    padding: 64px;
+    justify-content: space-between;
+  }
+}
+.working_title {
+  margin: 0 !important;
+}
+.working_list {
+  width: 100%;
+  min-width: 100%;
+  background: var(--beyaz);
+  border-radius: 24px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  @media screen and (min-width: 1440px) {
+    min-width: 885px;
+  }
+}
+.working_list_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  @media screen and (min-width: 1440px) {
+    justify-content: start;
+    gap: 24px;
+  }
+}
+.working_list_item_inner {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.working_list_item_number {
+  border: 1px solid var(--pembe50);
+  border-radius: 50%;
+  padding: 4px;
+  width: 48px;
+  height: 48px;
+  min-height: 48px;
+  max-height: 48px;
+  min-width: 48px;
+  max-width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1;
+  text-align: center;
+  color: var(--siyah100);
+}
+.working_list_item_inner_title {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.2;
+  color: var(--siyah100);
+  @media screen and (min-width: 1440px) {
+    font-size: 24px;
+  }
+}
+.working_list_item_inner_text {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--siyah50);
+  @media screen and (min-width: 1440px) {
+    font-size: 20px;
+  }
+}
+.working_second_title {
+  width: 100%;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.3;
+  text-align: center;
+  color: var(--beyaz);
+  @media screen and (min-width: 1440px) {
+    min-width: 403px;
+    width: 403px;
+    font-size: 72px;
+    text-align: left;
+  }
+}
